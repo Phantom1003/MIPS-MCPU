@@ -1,0 +1,2 @@
+vhdtdtfi -lang verilog -prj XJY1126_09 -o C:/Users/89293/Desktop/SWORDSoC/UART_Queue/Lab1_V4_final/Byte2Word.tfi -lib work C:/Users/89293/Desktop/SWORDSoC/UART_Queue/Lab1_V4_final//Byte2Word.v -module Byte2Word -template E:/ISE/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj XJY1126_09 -o C:/Users/89293/Desktop/SWORDSoC/UART_Queue/Lab1_V4_final/BYTE2WORD.tfi -lib work C:/Users/89293/Desktop/SWORDSoC/UART_Queue/Lab1_V4_final//Byte2Word.v -module BYTE2WORD -template E:/ISE/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

@@ -1,0 +1,28 @@
+Command line:
+   testb2w_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  1342
+
+Thu Mar 14 17:44:14 2019
+
+
+ Elaboration Time: 0.140625 sec
+
+ Current Memory Usage: 5340.17 Meg
+
+ Total Signals          : 29
+ Total Nets             : 118
+ Total Signal Drivers   : 17
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 22
+ Total Traceable Variables  : 31
+ Total Scalar Nets and Variables : 333
+
+ Total Simulation Time: 0.734375 sec
+
+ Current Memory Usage: 5182.88 Meg
+
+Thu Mar 14 17:48:09 2019
+

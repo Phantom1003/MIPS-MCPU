@@ -1,0 +1,5 @@
+vhdtdtfi -lib work C:/Users/89293/Desktop/Lab1_V4/Coprocessor.v -lang verilog -prj XJY1126_09 -o Coprocessor.spl -module Coprocessor -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 Coprocessor.spl C:/Users/89293/Desktop/Lab1_V4/Coprocessor.sym 
+vhdtdtfi -lang verilog -prj XJY1126_09 -o C:/Users/89293/Desktop/Lab1_V4/Coprocessor.tfi -lib work C:/Users/89293/Desktop/Lab1_V4//Coprocessor.v -module Coprocessor -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work C:/Users/89293/Desktop/Lab1_V4/Coprocessor.v -lang verilog -prj XJY1126_09 -o Coprocessor.spl -module Coprocessor -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 Coprocessor.spl C:/Users/89293/Desktop/Lab1_V4/Coprocessor.sym 

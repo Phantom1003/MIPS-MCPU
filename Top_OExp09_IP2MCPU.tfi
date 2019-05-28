@@ -1,0 +1,29 @@
+
+
+
+// Instantiate the module
+Top_OExp09_IP2MCPU instance_name (
+    .BTN_y(BTN_y), 
+    .CLK_200M_P(CLK_200M_P), 
+    .CLK_200M_N(CLK_200M_N), 
+    .RSTN(RSTN), 
+    .SW(SW), 
+    .AN(AN), 
+    .BTN_x(BTN_x), 
+    .CR(CR), 
+    .LED(LED), 
+    .led_clk(led_clk), 
+    .led_clrn(led_clrn), 
+    .LED_PEN(LED_PEN), 
+    .led_sout(led_sout), 
+    .RDY(RDY), 
+    .readn(readn), 
+    .SEGMENT(SEGMENT), 
+    .seg_clk(seg_clk), 
+    .seg_clrn(seg_clrn), 
+    .SEG_PEN(SEG_PEN), 
+    .seg_sout(seg_sout), 
+    .RXD(RXD)
+    );
+
+

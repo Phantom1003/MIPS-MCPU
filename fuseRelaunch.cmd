@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/89293/Desktop/SWORDSoC/UART_Queue/Lab1_V4_final/testfifo_isim_beh.exe" -prj "C:/Users/89293/Desktop/SWORDSoC/UART_Queue/Lab1_V4_final/testfifo_beh.prj" "work.testfifo" "work.glbl" 

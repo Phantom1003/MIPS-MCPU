@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\89293\Desktop\SWORDSoC\UART_Queue\Lab1_V4_final\Top_OExp09_IP2MCPU.ncd
+OUTFILE=C:\Users\89293\Desktop\SWORDSoC\UART_Queue\Lab1_V4_final\Top_OExp09_IP2MCPU.bit
+FAMILY=Kintex7
+PART=xc7k325t-2lffg676
+WORKINGDIR=C:\Users\89293\Desktop\SWORDSoC\UART_Queue\Lab1_V4_final
+LICENSE=ISE
+USER_INFO=__0_0_0

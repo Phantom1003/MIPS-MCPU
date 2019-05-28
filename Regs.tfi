@@ -1,0 +1,17 @@
+
+
+
+// Instantiate the module
+Regs instance_name (
+    .clk(clk), 
+    .rst(rst), 
+    .L_S(L_S), 
+    .R_addr_A(R_addr_A), 
+    .R_addr_B(R_addr_B), 
+    .Wt_addr(Wt_addr), 
+    .Wt_data(Wt_data), 
+    .rdata_A(rdata_A), 
+    .rdata_B(rdata_B)
+    );
+
+

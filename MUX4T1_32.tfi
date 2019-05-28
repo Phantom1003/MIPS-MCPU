@@ -1,0 +1,14 @@
+
+
+
+// Instantiate the module
+MUX4T1_32 instance_name (
+    .s(s), 
+    .I0(I0), 
+    .I1(I1), 
+    .I2(I2), 
+    .I3(I3), 
+    .o(o)
+    );
+
+

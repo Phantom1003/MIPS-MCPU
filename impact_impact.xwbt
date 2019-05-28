@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=C:\Users\89293\Desktop\SWORDSoC\UART_Queue\Lab1_V4_final\impact.xsl
+OUTFILE=C:\Users\89293\Desktop\SWORDSoC\UART_Queue\Lab1_V4_final\impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=C:\Users\89293\Desktop\SWORDSoC\UART_Queue\Lab1_V4_final
+LICENSE=iMPACT
+USER_INFO=iMPACT

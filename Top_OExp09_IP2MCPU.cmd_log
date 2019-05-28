@@ -1,0 +1,132 @@
+xst -intstyle ise -ifn "C:/Users/89293/Desktop/Lab1_V4_final/Top_OExp09_IP2MCPU.xst" -ofn "C:/Users/89293/Desktop/Lab1_V4_final/Top_OExp09_IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ok.ucf -uc M_datapath.ucf -p xc7k325t-ffg676-2L Top_OExp09_IP2MCPU.ngc Top_OExp09_IP2MCPU.ngd  
+map -intstyle ise -p xc7k325t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_OExp09_IP2MCPU_map.ncd Top_OExp09_IP2MCPU.ngd Top_OExp09_IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off Top_OExp09_IP2MCPU_map.ncd Top_OExp09_IP2MCPU.ncd Top_OExp09_IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top_OExp09_IP2MCPU.twx Top_OExp09_IP2MCPU.ncd -o Top_OExp09_IP2MCPU.twr Top_OExp09_IP2MCPU.pcf -ucf ok.ucf -ucf M_datapath.ucf 
+bitgen -intstyle ise -f Top_OExp09_IP2MCPU.ut Top_OExp09_IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/Users/89293/Desktop/Lab1_V4_final/Top_OExp09_IP2MCPU.xst" -ofn "C:/Users/89293/Desktop/Lab1_V4_final/Top_OExp09_IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ok.ucf -uc M_datapath.ucf -p xc7k325t-ffg676-2L Top_OExp09_IP2MCPU.ngc Top_OExp09_IP2MCPU.ngd  
+map -intstyle ise -p xc7k325t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_OExp09_IP2MCPU_map.ncd Top_OExp09_IP2MCPU.ngd Top_OExp09_IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off Top_OExp09_IP2MCPU_map.ncd Top_OExp09_IP2MCPU.ncd Top_OExp09_IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top_OExp09_IP2MCPU.twx Top_OExp09_IP2MCPU.ncd -o Top_OExp09_IP2MCPU.twr Top_OExp09_IP2MCPU.pcf -ucf ok.ucf -ucf M_datapath.ucf 
+bitgen -intstyle ise -f Top_OExp09_IP2MCPU.ut Top_OExp09_IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/Users/89293/Desktop/Lab1_V4_final/Top_OExp09_IP2MCPU.xst" -ofn "C:/Users/89293/Desktop/Lab1_V4_final/Top_OExp09_IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ok.ucf -uc M_datapath.ucf -p xc7k325t-ffg676-2L Top_OExp09_IP2MCPU.ngc Top_OExp09_IP2MCPU.ngd  
+map -intstyle ise -p xc7k325t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_OExp09_IP2MCPU_map.ncd Top_OExp09_IP2MCPU.ngd Top_OExp09_IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off Top_OExp09_IP2MCPU_map.ncd Top_OExp09_IP2MCPU.ncd Top_OExp09_IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top_OExp09_IP2MCPU.twx Top_OExp09_IP2MCPU.ncd -o Top_OExp09_IP2MCPU.twr Top_OExp09_IP2MCPU.pcf -ucf ok.ucf -ucf M_datapath.ucf 
+bitgen -intstyle ise -f Top_OExp09_IP2MCPU.ut Top_OExp09_IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/Users/89293/Desktop/Lab1_V4_final/Top_OExp09_IP2MCPU.xst" -ofn "C:/Users/89293/Desktop/Lab1_V4_final/Top_OExp09_IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ok.ucf -uc M_datapath.ucf -p xc7k325t-ffg676-2L Top_OExp09_IP2MCPU.ngc Top_OExp09_IP2MCPU.ngd  
+map -intstyle ise -p xc7k325t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_OExp09_IP2MCPU_map.ncd Top_OExp09_IP2MCPU.ngd Top_OExp09_IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off Top_OExp09_IP2MCPU_map.ncd Top_OExp09_IP2MCPU.ncd Top_OExp09_IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top_OExp09_IP2MCPU.twx Top_OExp09_IP2MCPU.ncd -o Top_OExp09_IP2MCPU.twr Top_OExp09_IP2MCPU.pcf -ucf ok.ucf -ucf M_datapath.ucf 
+bitgen -intstyle ise -f Top_OExp09_IP2MCPU.ut Top_OExp09_IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/Users/89293/Desktop/Lab1_V4_final/Top_OExp09_IP2MCPU.xst" -ofn "C:/Users/89293/Desktop/Lab1_V4_final/Top_OExp09_IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc M_datapath.ucf -uc ok.ucf -p xc7k325t-ffg676-2L Top_OExp09_IP2MCPU.ngc Top_OExp09_IP2MCPU.ngd  
+map -intstyle ise -p xc7k325t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_OExp09_IP2MCPU_map.ncd Top_OExp09_IP2MCPU.ngd Top_OExp09_IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off Top_OExp09_IP2MCPU_map.ncd Top_OExp09_IP2MCPU.ncd Top_OExp09_IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top_OExp09_IP2MCPU.twx Top_OExp09_IP2MCPU.ncd -o Top_OExp09_IP2MCPU.twr Top_OExp09_IP2MCPU.pcf -ucf M_datapath.ucf -ucf ok.ucf 
+bitgen -intstyle ise -f Top_OExp09_IP2MCPU.ut Top_OExp09_IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/Users/89293/Desktop/Lab1_V4_final/Top_OExp09_IP2MCPU.xst" -ofn "C:/Users/89293/Desktop/Lab1_V4_final/Top_OExp09_IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ok.ucf -uc M_datapath.ucf -p xc7k325t-ffg676-2L Top_OExp09_IP2MCPU.ngc Top_OExp09_IP2MCPU.ngd  
+map -intstyle ise -p xc7k325t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_OExp09_IP2MCPU_map.ncd Top_OExp09_IP2MCPU.ngd Top_OExp09_IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off Top_OExp09_IP2MCPU_map.ncd Top_OExp09_IP2MCPU.ncd Top_OExp09_IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top_OExp09_IP2MCPU.twx Top_OExp09_IP2MCPU.ncd -o Top_OExp09_IP2MCPU.twr Top_OExp09_IP2MCPU.pcf -ucf ok.ucf -ucf M_datapath.ucf 
+bitgen -intstyle ise -f Top_OExp09_IP2MCPU.ut Top_OExp09_IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/Users/89293/Desktop/Lab1_V4_final/Top_OExp09_IP2MCPU.xst" -ofn "C:/Users/89293/Desktop/Lab1_V4_final/Top_OExp09_IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ok.ucf -uc M_datapath.ucf -p xc7k325t-ffg676-2L Top_OExp09_IP2MCPU.ngc Top_OExp09_IP2MCPU.ngd  
+map -intstyle ise -p xc7k325t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_OExp09_IP2MCPU_map.ncd Top_OExp09_IP2MCPU.ngd Top_OExp09_IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off Top_OExp09_IP2MCPU_map.ncd Top_OExp09_IP2MCPU.ncd Top_OExp09_IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top_OExp09_IP2MCPU.twx Top_OExp09_IP2MCPU.ncd -o Top_OExp09_IP2MCPU.twr Top_OExp09_IP2MCPU.pcf -ucf ok.ucf -ucf M_datapath.ucf 
+bitgen -intstyle ise -f Top_OExp09_IP2MCPU.ut Top_OExp09_IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/Users/89293/Desktop/Lab1_V4_final/Top_OExp09_IP2MCPU.xst" -ofn "C:/Users/89293/Desktop/Lab1_V4_final/Top_OExp09_IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ok.ucf -uc M_datapath.ucf -p xc7k325t-ffg676-2L Top_OExp09_IP2MCPU.ngc Top_OExp09_IP2MCPU.ngd  
+map -intstyle ise -p xc7k325t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_OExp09_IP2MCPU_map.ncd Top_OExp09_IP2MCPU.ngd Top_OExp09_IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off Top_OExp09_IP2MCPU_map.ncd Top_OExp09_IP2MCPU.ncd Top_OExp09_IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top_OExp09_IP2MCPU.twx Top_OExp09_IP2MCPU.ncd -o Top_OExp09_IP2MCPU.twr Top_OExp09_IP2MCPU.pcf -ucf ok.ucf -ucf M_datapath.ucf 
+bitgen -intstyle ise -f Top_OExp09_IP2MCPU.ut Top_OExp09_IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/Users/89293/Desktop/Lab1_V4_final/Top_OExp09_IP2MCPU.xst" -ofn "C:/Users/89293/Desktop/Lab1_V4_final/Top_OExp09_IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ok.ucf -uc M_datapath.ucf -p xc7k325t-ffg676-2L Top_OExp09_IP2MCPU.ngc Top_OExp09_IP2MCPU.ngd  
+map -intstyle ise -p xc7k325t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_OExp09_IP2MCPU_map.ncd Top_OExp09_IP2MCPU.ngd Top_OExp09_IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off Top_OExp09_IP2MCPU_map.ncd Top_OExp09_IP2MCPU.ncd Top_OExp09_IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top_OExp09_IP2MCPU.twx Top_OExp09_IP2MCPU.ncd -o Top_OExp09_IP2MCPU.twr Top_OExp09_IP2MCPU.pcf -ucf ok.ucf -ucf M_datapath.ucf 
+bitgen -intstyle ise -f Top_OExp09_IP2MCPU.ut Top_OExp09_IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/Users/89293/Desktop/Lab1_V4_final/Top_OExp09_IP2MCPU.xst" -ofn "C:/Users/89293/Desktop/Lab1_V4_final/Top_OExp09_IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ok.ucf -uc M_datapath.ucf -p xc7k325t-ffg676-2L Top_OExp09_IP2MCPU.ngc Top_OExp09_IP2MCPU.ngd  
+map -intstyle ise -p xc7k325t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_OExp09_IP2MCPU_map.ncd Top_OExp09_IP2MCPU.ngd Top_OExp09_IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off Top_OExp09_IP2MCPU_map.ncd Top_OExp09_IP2MCPU.ncd Top_OExp09_IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top_OExp09_IP2MCPU.twx Top_OExp09_IP2MCPU.ncd -o Top_OExp09_IP2MCPU.twr Top_OExp09_IP2MCPU.pcf -ucf ok.ucf -ucf M_datapath.ucf 
+bitgen -intstyle ise -f Top_OExp09_IP2MCPU.ut Top_OExp09_IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/Users/89293/Desktop/Lab1_V4_final/Top_OExp09_IP2MCPU.xst" -ofn "C:/Users/89293/Desktop/Lab1_V4_final/Top_OExp09_IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ok.ucf -uc M_datapath.ucf -p xc7k325t-ffg676-2L Top_OExp09_IP2MCPU.ngc Top_OExp09_IP2MCPU.ngd  
+map -intstyle ise -p xc7k325t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_OExp09_IP2MCPU_map.ncd Top_OExp09_IP2MCPU.ngd Top_OExp09_IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off Top_OExp09_IP2MCPU_map.ncd Top_OExp09_IP2MCPU.ncd Top_OExp09_IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top_OExp09_IP2MCPU.twx Top_OExp09_IP2MCPU.ncd -o Top_OExp09_IP2MCPU.twr Top_OExp09_IP2MCPU.pcf -ucf ok.ucf -ucf M_datapath.ucf 
+bitgen -intstyle ise -f Top_OExp09_IP2MCPU.ut Top_OExp09_IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/Users/89293/Desktop/Lab1_V4_final/Top_OExp09_IP2MCPU.xst" -ofn "C:/Users/89293/Desktop/Lab1_V4_final/Top_OExp09_IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ok.ucf -uc M_datapath.ucf -p xc7k325t-ffg676-2L Top_OExp09_IP2MCPU.ngc Top_OExp09_IP2MCPU.ngd  
+map -intstyle ise -p xc7k325t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_OExp09_IP2MCPU_map.ncd Top_OExp09_IP2MCPU.ngd Top_OExp09_IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off Top_OExp09_IP2MCPU_map.ncd Top_OExp09_IP2MCPU.ncd Top_OExp09_IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top_OExp09_IP2MCPU.twx Top_OExp09_IP2MCPU.ncd -o Top_OExp09_IP2MCPU.twr Top_OExp09_IP2MCPU.pcf -ucf ok.ucf -ucf M_datapath.ucf 
+bitgen -intstyle ise -f Top_OExp09_IP2MCPU.ut Top_OExp09_IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/Users/89293/Desktop/Lab1_V4_final/Top_OExp09_IP2MCPU.xst" -ofn "C:/Users/89293/Desktop/Lab1_V4_final/Top_OExp09_IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ok.ucf -uc M_datapath.ucf -p xc7k325t-ffg676-2L Top_OExp09_IP2MCPU.ngc Top_OExp09_IP2MCPU.ngd  
+map -intstyle ise -p xc7k325t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_OExp09_IP2MCPU_map.ncd Top_OExp09_IP2MCPU.ngd Top_OExp09_IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off Top_OExp09_IP2MCPU_map.ncd Top_OExp09_IP2MCPU.ncd Top_OExp09_IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top_OExp09_IP2MCPU.twx Top_OExp09_IP2MCPU.ncd -o Top_OExp09_IP2MCPU.twr Top_OExp09_IP2MCPU.pcf -ucf ok.ucf -ucf M_datapath.ucf 
+bitgen -intstyle ise -f Top_OExp09_IP2MCPU.ut Top_OExp09_IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/Users/89293/Desktop/Lab1_V4_final/Top_OExp09_IP2MCPU.xst" -ofn "C:/Users/89293/Desktop/Lab1_V4_final/Top_OExp09_IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ok.ucf -uc M_datapath.ucf -p xc7k325t-ffg676-2L Top_OExp09_IP2MCPU.ngc Top_OExp09_IP2MCPU.ngd  
+map -intstyle ise -p xc7k325t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_OExp09_IP2MCPU_map.ncd Top_OExp09_IP2MCPU.ngd Top_OExp09_IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off Top_OExp09_IP2MCPU_map.ncd Top_OExp09_IP2MCPU.ncd Top_OExp09_IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top_OExp09_IP2MCPU.twx Top_OExp09_IP2MCPU.ncd -o Top_OExp09_IP2MCPU.twr Top_OExp09_IP2MCPU.pcf -ucf ok.ucf -ucf M_datapath.ucf 
+bitgen -intstyle ise -f Top_OExp09_IP2MCPU.ut Top_OExp09_IP2MCPU.ncd 
+vhdtdtfi -lang verilog -prj XJY1126_09 -o C:/Users/89293/Desktop/SWORDSoC/UART_Queue/Lab1_V4_final/Top_OExp09_IP2MCPU.tfi -lib work C:/Users/89293/Desktop/SWORDSoC/UART_Queue/Lab1_V4_final//MCPU_SOC.v -module Top_OExp09_IP2MCPU -template E:/ISE/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+xst -intstyle ise -ifn "C:/Users/89293/Desktop/SWORDSoC/UART_Queue/Lab1_V4_final/Top_OExp09_IP2MCPU.xst" -ofn "C:/Users/89293/Desktop/SWORDSoC/UART_Queue/Lab1_V4_final/Top_OExp09_IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ok.ucf -uc M_datapath.ucf -p xc7k325t-ffg676-2L Top_OExp09_IP2MCPU.ngc Top_OExp09_IP2MCPU.ngd  
+map -intstyle ise -p xc7k325t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_OExp09_IP2MCPU_map.ncd Top_OExp09_IP2MCPU.ngd Top_OExp09_IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off Top_OExp09_IP2MCPU_map.ncd Top_OExp09_IP2MCPU.ncd Top_OExp09_IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top_OExp09_IP2MCPU.twx Top_OExp09_IP2MCPU.ncd -o Top_OExp09_IP2MCPU.twr Top_OExp09_IP2MCPU.pcf -ucf ok.ucf -ucf M_datapath.ucf 
+bitgen -intstyle ise -f Top_OExp09_IP2MCPU.ut Top_OExp09_IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/Users/89293/Desktop/SWORDSoC/UART_Queue/Lab1_V4_final/Top_OExp09_IP2MCPU.xst" -ofn "C:/Users/89293/Desktop/SWORDSoC/UART_Queue/Lab1_V4_final/Top_OExp09_IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ok.ucf -uc M_datapath.ucf -p xc7k325t-ffg676-2L Top_OExp09_IP2MCPU.ngc Top_OExp09_IP2MCPU.ngd  
+map -intstyle ise -p xc7k325t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_OExp09_IP2MCPU_map.ncd Top_OExp09_IP2MCPU.ngd Top_OExp09_IP2MCPU.pcf 
+xst -intstyle ise -ifn "C:/Users/89293/Desktop/SWORDSoC/UART_Queue/Lab1_V4_final/Top_OExp09_IP2MCPU.xst" -ofn "C:/Users/89293/Desktop/SWORDSoC/UART_Queue/Lab1_V4_final/Top_OExp09_IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ok.ucf -uc M_datapath.ucf -p xc7k325t-ffg676-2L Top_OExp09_IP2MCPU.ngc Top_OExp09_IP2MCPU.ngd  
+map -intstyle ise -p xc7k325t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_OExp09_IP2MCPU_map.ncd Top_OExp09_IP2MCPU.ngd Top_OExp09_IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off Top_OExp09_IP2MCPU_map.ncd Top_OExp09_IP2MCPU.ncd Top_OExp09_IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top_OExp09_IP2MCPU.twx Top_OExp09_IP2MCPU.ncd -o Top_OExp09_IP2MCPU.twr Top_OExp09_IP2MCPU.pcf -ucf ok.ucf -ucf M_datapath.ucf 
+bitgen -intstyle ise -f Top_OExp09_IP2MCPU.ut Top_OExp09_IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/Users/89293/Desktop/SWORDSoC/UART_Queue/Lab1_V4_final/Top_OExp09_IP2MCPU.xst" -ofn "C:/Users/89293/Desktop/SWORDSoC/UART_Queue/Lab1_V4_final/Top_OExp09_IP2MCPU.syr" 
+xst -intstyle ise -ifn "C:/Users/89293/Desktop/SWORDSoC/UART_Queue/Lab1_V4_final/Top_OExp09_IP2MCPU.xst" -ofn "C:/Users/89293/Desktop/SWORDSoC/UART_Queue/Lab1_V4_final/Top_OExp09_IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ok.ucf -uc M_datapath.ucf -p xc7k325t-ffg676-2L Top_OExp09_IP2MCPU.ngc Top_OExp09_IP2MCPU.ngd  
+map -intstyle ise -p xc7k325t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_OExp09_IP2MCPU_map.ncd Top_OExp09_IP2MCPU.ngd Top_OExp09_IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off Top_OExp09_IP2MCPU_map.ncd Top_OExp09_IP2MCPU.ncd Top_OExp09_IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top_OExp09_IP2MCPU.twx Top_OExp09_IP2MCPU.ncd -o Top_OExp09_IP2MCPU.twr Top_OExp09_IP2MCPU.pcf -ucf ok.ucf -ucf M_datapath.ucf 
+bitgen -intstyle ise -f Top_OExp09_IP2MCPU.ut Top_OExp09_IP2MCPU.ncd 
+vhdtdtfi -lang verilog -prj XJY1126_09 -o C:/Users/89293/Desktop/SWORDSoC/UART_Queue/Lab1_V4_final/Top_OExp09_IP2MCPU.tfi -lib work C:/Users/89293/Desktop/SWORDSoC/UART_Queue/Lab1_V4_final//MCPU_SOC.v -module Top_OExp09_IP2MCPU -template E:/ISE/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+xst -intstyle ise -ifn "C:/Users/89293/Desktop/SWORDSoC/UART_Queue/Lab1_V4_final/Top_OExp09_IP2MCPU.xst" -ofn "C:/Users/89293/Desktop/SWORDSoC/UART_Queue/Lab1_V4_final/Top_OExp09_IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ok.ucf -uc M_datapath.ucf -p xc7k325t-ffg676-2L Top_OExp09_IP2MCPU.ngc Top_OExp09_IP2MCPU.ngd  
+map -intstyle ise -p xc7k325t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_OExp09_IP2MCPU_map.ncd Top_OExp09_IP2MCPU.ngd Top_OExp09_IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off Top_OExp09_IP2MCPU_map.ncd Top_OExp09_IP2MCPU.ncd Top_OExp09_IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top_OExp09_IP2MCPU.twx Top_OExp09_IP2MCPU.ncd -o Top_OExp09_IP2MCPU.twr Top_OExp09_IP2MCPU.pcf -ucf ok.ucf -ucf M_datapath.ucf 
+bitgen -intstyle ise -f Top_OExp09_IP2MCPU.ut Top_OExp09_IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/Users/89293/Desktop/SWORDSoC/UART_Queue/Lab1_V4_final/Top_OExp09_IP2MCPU.xst" -ofn "C:/Users/89293/Desktop/SWORDSoC/UART_Queue/Lab1_V4_final/Top_OExp09_IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ok.ucf -uc M_datapath.ucf -p xc7k325t-ffg676-2L Top_OExp09_IP2MCPU.ngc Top_OExp09_IP2MCPU.ngd  
+map -intstyle ise -p xc7k325t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_OExp09_IP2MCPU_map.ncd Top_OExp09_IP2MCPU.ngd Top_OExp09_IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off Top_OExp09_IP2MCPU_map.ncd Top_OExp09_IP2MCPU.ncd Top_OExp09_IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top_OExp09_IP2MCPU.twx Top_OExp09_IP2MCPU.ncd -o Top_OExp09_IP2MCPU.twr Top_OExp09_IP2MCPU.pcf -ucf ok.ucf -ucf M_datapath.ucf 
+bitgen -intstyle ise -f Top_OExp09_IP2MCPU.ut Top_OExp09_IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/Users/89293/Desktop/SWORDSoC/UART_Queue/Lab1_V4_final/Top_OExp09_IP2MCPU.xst" -ofn "C:/Users/89293/Desktop/SWORDSoC/UART_Queue/Lab1_V4_final/Top_OExp09_IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ok.ucf -uc M_datapath.ucf -p xc7k325t-ffg676-2L Top_OExp09_IP2MCPU.ngc Top_OExp09_IP2MCPU.ngd  
+map -intstyle ise -p xc7k325t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_OExp09_IP2MCPU_map.ncd Top_OExp09_IP2MCPU.ngd Top_OExp09_IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off Top_OExp09_IP2MCPU_map.ncd Top_OExp09_IP2MCPU.ncd Top_OExp09_IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top_OExp09_IP2MCPU.twx Top_OExp09_IP2MCPU.ncd -o Top_OExp09_IP2MCPU.twr Top_OExp09_IP2MCPU.pcf -ucf ok.ucf -ucf M_datapath.ucf 
+bitgen -intstyle ise -f Top_OExp09_IP2MCPU.ut Top_OExp09_IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/Users/89293/Desktop/SWORDSoC/UART_Queue/Lab1_V4_final/Top_OExp09_IP2MCPU.xst" -ofn "C:/Users/89293/Desktop/SWORDSoC/UART_Queue/Lab1_V4_final/Top_OExp09_IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ok.ucf -uc M_datapath.ucf -p xc7k325t-ffg676-2L Top_OExp09_IP2MCPU.ngc Top_OExp09_IP2MCPU.ngd  
+map -intstyle ise -p xc7k325t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_OExp09_IP2MCPU_map.ncd Top_OExp09_IP2MCPU.ngd Top_OExp09_IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off Top_OExp09_IP2MCPU_map.ncd Top_OExp09_IP2MCPU.ncd Top_OExp09_IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top_OExp09_IP2MCPU.twx Top_OExp09_IP2MCPU.ncd -o Top_OExp09_IP2MCPU.twr Top_OExp09_IP2MCPU.pcf -ucf ok.ucf -ucf M_datapath.ucf 
+bitgen -intstyle ise -f Top_OExp09_IP2MCPU.ut Top_OExp09_IP2MCPU.ncd 

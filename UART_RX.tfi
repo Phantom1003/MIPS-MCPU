@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+UART_RX instance_name (
+    .clk(clk), 
+    .rst(rst), 
+    .RXD(RXD), 
+    .halfPeriod(halfPeriod), 
+    .TESTD(TESTD), 
+    .RX_Ready(RX_Ready), 
+    .Rx_Data(Rx_Data)
+    );
+
+

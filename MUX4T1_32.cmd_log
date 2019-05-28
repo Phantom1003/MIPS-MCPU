@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj XJY1126_09 -o C:/Users/89293/Desktop/Lab1_V4_final/MUX4T1_32.tfi -lib work C:/Users/89293/Desktop/Lab1_V4_final//MUX4T1_32.v -module MUX4T1_32 -template E:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

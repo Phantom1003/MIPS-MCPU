@@ -1,0 +1,20 @@
+
+
+
+// Instantiate the module
+UARTFiFo instance_name (
+    .s_clk(s_clk), 
+    .s_rst(s_rst), 
+    .s_valid(s_valid), 
+    .s_ready(s_ready), 
+    .s_data(s_data), 
+    .s_load(s_load), 
+    .m_clk(m_clk), 
+    .m_rst(m_rst), 
+    .m_valid(m_valid), 
+    .m_ready(m_ready), 
+    .m_data(m_data), 
+    .m_load(m_load)
+    );
+
+

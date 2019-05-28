@@ -1,0 +1,28 @@
+Command line:
+   Top_OExp09_IP2MCPU_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  1123
+
+Thu Mar 14 17:27:45 2019
+
+
+ Elaboration Time: 0.203125 sec
+
+ Current Memory Usage: 5349.32 Meg
+
+ Total Signals          : 2410
+ Total Nets             : 3971
+ Total Signal Drivers   : 584
+ Total Blocks           : 436
+ Total Primitive Blocks : 416
+ Total Processes        : 630
+ Total Traceable Variables  : 538
+ Total Scalar Nets and Variables : 64847
+
+ Total Simulation Time: 0.265625 sec
+
+ Current Memory Usage: 5349.32 Meg
+
+Thu Mar 14 17:27:56 2019
+

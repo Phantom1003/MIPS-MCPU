@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj XJY1126_09 -o C:/Users/89293/Desktop/SWORDSoC/UART_Queue/Lab1_V4_final/UARTFiFo.tfi -lib work C:/Users/89293/Desktop/SWORDSoC/UART_Queue/Lab1_V4_final//UARTFIFO.v -module UARTFiFo -template E:/ISE/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

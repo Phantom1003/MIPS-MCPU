@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/89293/Desktop/Lab1_V4_final/M_datapath.xst" -ofn "C:/Users/89293/Desktop/Lab1_V4_final/M_datapath.syr" 

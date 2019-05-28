@@ -1,0 +1,84 @@
+iMPACT Version: 14.7
+
+iMPACT log file Started on Thu Mar 14 18:31:28 2019
+
+Welcome to iMPACT
+iMPACT Version: 14.7
+Project:C:\Users\89293\Desktop\SWORDSoC\UART_Queue\Lab1_V4_final\\auto_project.ipfcreated.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : addDevice -p 1 -file"C:/Users/89293/Desktop/SWORDSoC/UART_Queue/Lab1_V4_final/top_oexp09_ip2mcpu.bit"
+'1': Loading file'C:/Users/89293/Desktop/SWORDSoC/UART_Queue/Lab1_V4_final/top_oexp09_ip2mcpu.bit' ...
+done.
+INFO:iMPACT:1777 - 
+   Reading E:/ISE/14.7/ISE_DS/ISE/kintex7/data/xc7k325t.bsd...
+INFO:iMPACT - Using CseAdapterBSDevice
+INFO:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the bitstream   stored in memory,
+   but the original bitstream file remains unchanged.
+UserID read from the bitstream file = 0xFFFFFFFF.
+Data width read from the bitstream file = 1.
+INFO:iMPACT:501 - '1': Added Device xc7k325t successfully.
+----------------------------------------------------------------------
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+INFO:iMPACT - Digilent Plugin: Plugin Version: 2.4.4
+INFO:iMPACT - Digilent Plugin: found 1 device(s).
+INFO:iMPACT - Digilent Plugin: opening device: "JtagHs2", SN:201706300081
+INFO:iMPACT - Digilent Plugin: User Name: JtagHs2
+INFO:iMPACT - Digilent Plugin: Product Name: Digilent JTAG-HS2
+INFO:iMPACT - Digilent Plugin: Serial Number: 201706300081
+INFO:iMPACT - Digilent Plugin: Product ID: 30900152
+INFO:iMPACT - Digilent Plugin: Firmware Version: 010B
+INFO:iMPACT - Digilent Plugin: JTAG Port Number: 0
+INFO:iMPACT - Digilent Plugin: JTAG Clock Frequency: 10000000 Hz
+INFO:iMPACT - Current time: 2019/3/14 18:31:49
+// *** BATCH CMD : Program -p 1 
+Maximum TCK operating frequency for this device chain: 66000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+1: Device Temperature: Current Reading:   34.63 C, Min. Reading:   34.13 C, Max.Reading:   35.61 C
+1: VCCINT Supply: Current Reading:   1.022 V, Min. Reading:   1.022 V, Max.Reading:   1.025 V
+1: VCCAUX Supply: Current Reading:   1.787 V, Min. Reading:   1.784 V, Max.Reading:   1.790 V
+INFO:iMPACT - Creating XC7K325T device.
+PROGRESS_START - Starting Operation.
+'1': Programming device...
+ Match_cycle = NoWait.
+Match cycle: NoWait
+ LCK_cycle = NoWait.
+LCK cycle: NoWait
+done.
+INFO:Cse - Status register values:
+INFO:Cse - 0011 1111 1001 1110 0000 1000 0000 0010 
+INFO:Cse - '1': Completed downloading bit file to device.
+INFO:Cse - '1': Programming completed successfully.
+ Match_cycle = NoWait.
+Match cycle: NoWait
+ LCK_cycle = NoWait.
+LCK cycle: NoWait
+INFO:iMPACT - '1': Checking done pin....done.
+'1': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =     10 sec.
+Project:'C:\Users\89293\Desktop\SWORDSoC\UART_Queue\Lab1_V4_final\\auto_project.ipf'created.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : saveProjectFile -file"C:\Users\89293\Desktop\SWORDSoC\UART_Queue\Lab1_V4_final\\auto_project.ipf"
+// *** BATCH CMD : setMode -bs
+INFO:iMPACT - Launching WebTalk, please refer to the webtalk log at   C:\Users\89293\Desktop\SWORDSoC\UART_Queue\Lab1_V4_final\webtalk.log for   details.
+INFO:iMPACT - Running wbtc successfully.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : deleteDevice -position 1
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff

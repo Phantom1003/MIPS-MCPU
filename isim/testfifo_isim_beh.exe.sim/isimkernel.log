@@ -1,0 +1,28 @@
+Command line:
+   testfifo_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  1408
+
+Thu Mar 14 17:48:24 2019
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 5340.18 Meg
+
+ Total Signals          : 29
+ Total Nets             : 58
+ Total Signal Drivers   : 18
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 26
+ Total Traceable Variables  : 35
+ Total Scalar Nets and Variables : 1309
+
+ Total Simulation Time: 0.921875 sec
+
+ Current Memory Usage: 5654.76 Meg
+
+Thu Mar 14 17:49:23 2019
+
